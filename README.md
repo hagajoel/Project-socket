@@ -7,5 +7,3 @@ File transfering, using java and socket object, between client and server runnin
 ### Technologies
 
 - Java
-
----
