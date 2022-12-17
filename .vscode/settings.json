@@ -1,3 +1,6 @@
 {
-  "java.project.referencedLibraries": ["lib/**/*.jar"]
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "c:\\javalibs\\flatlaf-2.3.jar"
+  ]
 }
