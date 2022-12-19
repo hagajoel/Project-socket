@@ -132,7 +132,7 @@ public class HttpUtils extends Thread{
             LogUtil.write(">> No such resource:" + req);
         }
         else { // It's a file
-            if (!req.startsWith("/src/img/")&&!req.startsWith("/favicon.ico")) {
+            if (!req.startsWith("/img/")&&!req.startsWith("/favicon.ico")) {
                 LogUtil.write(">> Seek the content of file: " + file.getName());
             }
             // Print header
@@ -190,7 +190,7 @@ public class HttpUtils extends Thread{
                 parent = parent.replace("\\", "/");
                 // Parent line
                 sbDirHtml.append("<tr>");
-                sbDirHtml.append("  <td><img src=\""+buildImageLink(req,"src/img/folder.png")+"\"></img><a href=\"" + parent +"\">../</a></td>");
+                sbDirHtml.append("  <td><img src=\""+buildImageLink(req,"img/folder.png")+"\"></img><a href=\"" + parent +"\">../</a></td>");
                 sbDirHtml.append("  <td></td>");
                 sbDirHtml.append("  <td></td>");
                 sbDirHtml.append("</tr>");
@@ -359,33 +359,33 @@ public class HttpUtils extends Thread{
 
     private static String getFileImage(String path) {
         if (path == null || path.equals("") || path.lastIndexOf(".") < 0) {
-            return "src/img/page.png";
+            return "img/page.png";
         }
 
         String extension = path.substring(path.lastIndexOf("."));
         switch(extension) {
             case ".class":
-                return "src/img/page_white_c.png";
+                return "img/page_white_c.png";
             case ".html":
-                return "src/img/page_white_code.png";
+                return "img/page_white_code.png";
             case ".java":
-                return "src/img/page_white_cup.png";
+                return "img/page_white_cup.png";
             case ".txt":
-                return "src/img/page_white_text.png";
+                return "img/page_white_text.png";
             case ".xml":
-                return "src/img/page_white_code_red.png";
+                return "img/page_white_code_red.png";
             case ".bat":
-                return "src/img/application_xp_terminal.png";
+                return "img/application_xp_terminal.png";
             case ".php":
-                return "src/img/page_white_php.png";
+                return "img/page_white_php.png";
             case ".png":
-                return "src/img/image.png";
+                return "img/image.png";
             case ".jpg":
-                return "src/img/image.png";
+                return "img/image.png";
             case ".jpeg":
-                return "src/img/image.png";
+                return "img/image.png";
             default:
-                return "src/img/page.png";
+                return "img/page.png";
         }
     }
 
@@ -402,7 +402,7 @@ public class HttpUtils extends Thread{
             case ".txt":
                 return "text/plain";
             case ".ico":
-                return "src/img/favicon.ico";
+                return "img/favicon.ico";
             case ".wml":
                 return "text/html";
             default:

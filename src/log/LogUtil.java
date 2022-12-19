@@ -19,7 +19,6 @@ public class LogUtil {
 
     public static void write(String log, boolean print) {
         String message = sdf.format(new Date()) + " " + log;
-        // Store new log
         logs.add(message);
 
         if(print) {
