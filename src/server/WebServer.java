@@ -32,7 +32,7 @@ public class WebServer {
                     }
                 }
                 if (request != null && !request.equals("")) {
-                    new HttpUtils();
+                    new HttpUtils(request,socket).start();
                 }
             }
 

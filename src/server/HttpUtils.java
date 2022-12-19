@@ -1,5 +1,6 @@
 package server;
 
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -10,10 +11,10 @@ import java.io.UnsupportedEncodingException;
 import java.net.Socket;
 import java.net.URLDecoder;
 import java.nio.file.Paths;
-import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -24,16 +25,15 @@ public class HttpUtils extends Thread{
     Socket socket;
     String clientRequest;
 
-
-    public HttpUtils (String req, Socket s)
-    {
+    public HttpUtils(String req, Socket s){
         socket = s;
         clientRequest = req;
     }
 
+
     public void run(){
         try{
-            
+            // Clear list each time for handling new request
             LogUtil.clear();
 
             PrintStream printer = new PrintStream(socket.getOutputStream());
@@ -58,20 +58,19 @@ public class HttpUtils extends Thread{
                     printer.println(errorPage);
                 }
                 else {
-                    if (!req.startsWith("/images/") && !req.endsWith("favicon.ico")) {
-       
-                    }
                     req = URLDecoder.decode(req, "UTF-8");
+                    // Remove the last slash if exists
                     if (req.endsWith("/")) {
                         req = req.substring(0, req.length() - 1);
                     }
+                    // Handle requests
                     if (req.indexOf(".")>-1) { // Request for single file
                         if (req.indexOf(".fake-cgi")>-1) { // CGI request
                             LogUtil.write("> This is a [CGI] request..");
                             handleCGIRequest(req, printer);
                         }
                         else { // Single file request
-                            if (!req.startsWith("/images/")&&!req.startsWith("/favicon.ico")) {
+                            if (!req.startsWith("/img/")&&!req.startsWith("/favicon.ico")) {
                                 LogUtil.write("> This is a [SINGLE FILE] request..");
                             }
                             handleFileRequest(req, printer);
@@ -83,20 +82,25 @@ public class HttpUtils extends Thread{
                     }
                 }
             }
+            // Save logs to file
             LogUtil.save(true);
             socket.close();
         }
         catch(IOException ex){
+            // Handle the exception
             System.out.println(ex);
         }
     }
 
     private void handleCGIRequest(String req, PrintStream printer) throws UnsupportedEncodingException {
+        // Parse the url to key-value pair
         Map<String, String> params = parseUrlParams(req);
 
+        // Try to convert num1 and num2 to integer
         Integer number1 = tryParse(params.get("num1"));
         Integer number2 = tryParse(params.get("num2"));
 
+        // Validate the input params
         if (number1 == null || number2 == null) {
             String errormsg = "Invalid parameter: " + params.get("num1") + " or " + params.get("num2") + ", both must be integer!";
             LogUtil.write(">> " + errormsg);
@@ -106,7 +110,7 @@ public class HttpUtils extends Thread{
         else {
             LogUtil.write(">> " + number1 + " + " + number2 + " = " + (number1+number2));
             StringBuilder sbContent = new StringBuilder();
-            sbContent.append("Dear " + params.get("person") + ", the sum of ");
+            sbContent.append(params.get("person") + ", the sum of ");
             sbContent.append(params.get("num1") + " and " + params.get("num2") + " is ");
             sbContent.append(number1+number2);
             sbContent.append(".");
@@ -118,20 +122,25 @@ public class HttpUtils extends Thread{
     }
 
     private void handleFileRequest(String req, PrintStream printer) throws FileNotFoundException, IOException {
+        // Get the root folder of the webserver
         String rootDir = getRootFolder();
+        // Get the real file path
         String path = Paths.get(rootDir, req).toString();
+        // Try to open the file
         File file = new File(path);
         if (!file.exists() || !file.isFile()) { // If not exists or not a file
             printer.println("No such resource:" + req);
             LogUtil.write(">> No such resource:" + req);
         }
         else { // It's a file
-            if (!req.startsWith("/images/")&&!req.startsWith("/favicon.ico")) {
+            if (!req.startsWith("/src/img/")&&!req.startsWith("/favicon.ico")) {
                 LogUtil.write(">> Seek the content of file: " + file.getName());
             }
+            // Print header
             String htmlHeader = buildHttpHeader(path, file.length());
             printer.println(htmlHeader);
 
+            // Open file to input stream
             InputStream fs = new FileInputStream(file);
             byte[] buffer = new byte[1000];
             while (fs.available()>0) {
@@ -141,9 +150,13 @@ public class HttpUtils extends Thread{
         }
     }
 
+
     private void handleExploreRequest(String req, PrintStream printer) {
+        // Get the root folder of the webserver
         String rootDir = getRootFolder();
+        // Get the real file path
         String path = Paths.get(rootDir, req).toString();
+        // Try to open the directory
         File file = new File (path) ;
         if (!file.exists()) { // If the directory does not exist
             printer.println("No such resource:" + req);
@@ -151,9 +164,11 @@ public class HttpUtils extends Thread{
         }
         else { // If exists
             LogUtil.write(">> Explore the content under folder: " + file.getName());
+            // Get all the files and directory under current directory
             File[] files = file.listFiles();
             Arrays.sort(files);
             
+            // Build file/directory structure in html format
             StringBuilder sbDirHtml = new StringBuilder();
             // Title line
             sbDirHtml.append("<table>");
@@ -163,31 +178,36 @@ public class HttpUtils extends Thread{
             sbDirHtml.append("  <th>Size(Bytes)</th>");
             sbDirHtml.append("</tr>");
 
+            // Parent folder, show it if current directory is not root
             if (!path.equals(rootDir)) {
                 String parent = path.substring(0, path.lastIndexOf(File.separator));
                 if (parent.equals(rootDir)) { // The first level
                     parent = "../";
                 }
+                else { // The second or deeper levels
                     parent = parent.replace(rootDir, "");
                 }
+                // Replace backslash to slash
                 parent = parent.replace("\\", "/");
+                // Parent line
                 sbDirHtml.append("<tr>");
-                sbDirHtml.append("  <td><img src=\""+buildImageLink(req,"images/folder.png")+"\"></img><a href=\"" + parent +"\">../</a></td>");
+                sbDirHtml.append("  <td><img src=\""+buildImageLink(req,"src/img/folder.png")+"\"></img><a href=\"" + parent +"\">../</a></td>");
                 sbDirHtml.append("  <td></td>");
                 sbDirHtml.append("  <td></td>");
                 sbDirHtml.append("</tr>");
             }
 
+            // Build lines for directories
             List<File> folders = getFileByType(files, true);
             for (File folder: folders) {
                 LogUtil.write(">>> Directory: " + folder.getName());
                 sbDirHtml.append("<tr>");
-                sbDirHtml.append("  <td><img src=\""+buildImageLink(req,"images/folder.png")+"\"></img><a href=\""+buildRelativeLink(req, folder.getName())+"\">"+folder.getName()+"</a></td>");
+                sbDirHtml.append("  <td><img src=\""+buildImageLink(req,"src/img/folder.png")+"\"></img><a href=\""+buildRelativeLink(req, folder.getName())+"\">"+folder.getName()+"</a></td>");
                 sbDirHtml.append("  <td>" + getFormattedDate(folder.lastModified()) + "</td>");
                 sbDirHtml.append("  <td></td>");
                 sbDirHtml.append("</tr>");
             }
-
+            // Build lines for files
             List<File> fileList = getFileByType(files, false);
             for (File f: fileList) {
                 LogUtil.write(">>> File: " + f.getName());
@@ -206,7 +226,6 @@ public class HttpUtils extends Thread{
         }
     }
 
-
     private String buildHttpHeader(String path, long length) {
         StringBuilder sbHtml = new StringBuilder();
         sbHtml.append("HTTP/1.1 200 OK");
@@ -224,10 +243,7 @@ public class HttpUtils extends Thread{
         sbHtml.append("<!DOCTYPE html>");
         sbHtml.append("<html>");
         sbHtml.append("<head>");
-        sbHtml.append("<style>");
-        sbHtml.append(" table { width:50%; } ");
-        sbHtml.append(" th, td { padding: 3px; text-align: left; }");
-        sbHtml.append("</style>");
+        sbHtml.append("<link href='/style/style.css'></link>");
         sbHtml.append("<title>My Web Server</title>");
         sbHtml.append("</head>");
         sbHtml.append("<body>");
@@ -250,6 +266,7 @@ public class HttpUtils extends Thread{
         sbHtml.append("HTTP/1.1 " + code + " " + title + "\r\n\r\n");
         sbHtml.append("<!DOCTYPE html>");
         sbHtml.append("<html>");
+        sbHtml.append("<link href='/style/style.css'></link>");
         sbHtml.append("<head>");
         sbHtml.append("<title>" + code + " " + title + "</title>");
         sbHtml.append("</head>");
@@ -257,12 +274,10 @@ public class HttpUtils extends Thread{
         sbHtml.append("<h1>" + code + " " + title + "</h1>");
         sbHtml.append("<p>" + msg + "</p>");
         sbHtml.append("<hr>");
-        sbHtml.append("<p>*This page is returned by Web Server.</p>");
         sbHtml.append("</body>");
         sbHtml.append("</html>");
         return sbHtml.toString();
     }
-
 
     private List<File> getFileByType(File[] filelist, boolean isfolder) {
         List<File> files = new ArrayList<File>();
@@ -281,7 +296,6 @@ public class HttpUtils extends Thread{
         return files;
     }
 
-
     private Map<String, String> parseUrlParams(String url) throws UnsupportedEncodingException {
         HashMap<String, String> mapParams = new HashMap<String, String>();
         if (url.indexOf("?") < 0) {
@@ -297,7 +311,6 @@ public class HttpUtils extends Thread{
         return mapParams;
     }
 
-
     private String getRootFolder() {
         String root = "";
         try{
@@ -310,7 +323,6 @@ public class HttpUtils extends Thread{
         return root;
     }
 
-
     private String getFormattedDate(long lastmodified) {
         if (lastmodified < 0) {
             return "";
@@ -320,7 +332,6 @@ public class HttpUtils extends Thread{
         String lasmod = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(lm);
         return lasmod;
     }
-
 
     private String buildRelativeLink(String req, String filename) {
         if (req == null || req.equals("") || req.equals("/")) {
@@ -349,23 +360,33 @@ public class HttpUtils extends Thread{
 
     private static String getFileImage(String path) {
         if (path == null || path.equals("") || path.lastIndexOf(".") < 0) {
-            return "img/file.png";
+            return "src/img/page.png";
         }
 
         String extension = path.substring(path.lastIndexOf("."));
         switch(extension) {
             case ".class":
-                return "img/class.png";
+                return "src/img/page_white_c.png";
             case ".html":
-                return "img/html.png";
+                return "src/img/page_white_code.png";
             case ".java":
-                return "img/java.png";
+                return "src/img/page_white_cup.png";
             case ".txt":
-                return "img/text.png";
+                return "src/img/page_white_text.png";
             case ".xml":
-                return "img/xml.png";
+                return "src/img/page_white_code_red.png";
+            case ".bat":
+                return "src/img/application_xp_terminal.png";
+            case ".php":
+                return "src/img/page_white_php.png";
+            case ".png":
+                return "src/img/image.png";
+            case ".jpg":
+                return "src/img/image.png";
+            case ".jpeg":
+                return "src/img/image.png";
             default:
-                return "img/file.png";
+                return "src/img/page.png";
         }
     }
 
@@ -382,7 +403,7 @@ public class HttpUtils extends Thread{
             case ".txt":
                 return "text/plain";
             case ".ico":
-                return "image/fav .ico";
+                return "src/img/favicon.ico";
             case ".wml":
                 return "text/html";
             default:
@@ -397,4 +418,5 @@ public class HttpUtils extends Thread{
             return null;
         }
     }
+
 }

@@ -8,7 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class LogUtil {
-    private static final String FILE_LOG = "WebServerLogs.txt";
+    private static final String FILE_LOG = "log/logs.txt";
     private static List<String> logs = new LinkedList<String>();
     private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     
