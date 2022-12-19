@@ -1,0 +1,88 @@
+2022-12-19 22:13:22 
+2022-12-19 22:13:22 Http Worker is working...
+2022-12-19 22:13:22 GET / HTTP/1.1
+2022-12-19 22:13:22 > This is a [DIRECTORY EXPLORE] request..
+2022-12-19 22:13:22 >> Explore the content under folder: Project-socket
+2022-12-19 22:13:22 >>> Directory: .git
+2022-12-19 22:13:22 >>> Directory: .vscode
+2022-12-19 22:13:22 >>> Directory: bin
+2022-12-19 22:13:22 >>> Directory: img
+2022-12-19 22:13:22 >>> Directory: lib
+2022-12-19 22:13:22 >>> Directory: log
+2022-12-19 22:13:22 >>> Directory: src
+2022-12-19 22:13:22 >>> Directory: style
+2022-12-19 22:13:22 >>> Directory: www
+2022-12-19 22:13:22 >>> File: README.md
+2022-12-19 22:13:22 
+2022-12-19 22:13:22 
+2022-12-19 22:13:22 Http Worker is working...
+2022-12-19 22:13:22 GET /img/folder.png HTTP/1.1
+2022-12-19 22:13:22 
+2022-12-19 22:13:22 Http Worker is working...
+2022-12-19 22:13:22 GET /favicon.ico HTTP/1.1
+2022-12-19 22:13:22 >> No such resource:/favicon.ico
+2022-12-19 22:14:12 
+2022-12-19 22:14:12 Http Worker is working...
+2022-12-19 22:14:12 GET / HTTP/1.1
+2022-12-19 22:14:12 
+2022-12-19 22:14:12 > This is a [DIRECTORY EXPLORE] request..
+2022-12-19 22:14:12 Http Worker is working...
+2022-12-19 22:14:12 GET / HTTP/1.1
+2022-12-19 22:14:12 >> Explore the content under folder: Project-socket
+2022-12-19 22:14:12 >>> Directory: .git
+2022-12-19 22:14:12 >>> Directory: .vscode
+2022-12-19 22:14:12 >>> Directory: bin
+2022-12-19 22:14:12 >>> Directory: img
+2022-12-19 22:14:12 >>> Directory: lib
+2022-12-19 22:14:12 >>> Directory: log
+2022-12-19 22:14:12 > This is a [DIRECTORY EXPLORE] request..
+2022-12-19 22:14:12 >>> Directory: src
+2022-12-19 22:14:12 >>> Directory: style
+2022-12-19 22:14:12 >>> Directory: www
+2022-12-19 22:14:12 >>> File: README.md
+2022-12-19 22:14:12 
+2022-12-19 22:14:12 Http Worker is working...
+2022-12-19 22:14:12 GET / HTTP/1.1
+2022-12-19 22:14:12 
+2022-12-19 22:14:12 > This is a [DIRECTORY EXPLORE] request..
+2022-12-19 22:14:12 Http Worker is working...
+2022-12-19 22:14:12 GET / HTTP/1.1
+2022-12-19 22:14:12 >> Explore the content under folder: Project-socket
+2022-12-19 22:14:12 >>> Directory: .git
+2022-12-19 22:14:12 >>> Directory: .vscode
+2022-12-19 22:14:12 >>> Directory: bin
+2022-12-19 22:14:12 >>> Directory: img
+2022-12-19 22:14:12 >>> Directory: lib
+2022-12-19 22:14:12 >>> Directory: log
+2022-12-19 22:14:12 > This is a [DIRECTORY EXPLORE] request..
+2022-12-19 22:14:12 >>> Directory: src
+2022-12-19 22:14:12 >>> Directory: style
+2022-12-19 22:14:12 >>> Directory: www
+2022-12-19 22:14:12 >>> File: README.md
+2022-12-19 22:14:12 >> Explore the content under folder: Project-socket
+2022-12-19 22:14:12 >>> Directory: .git
+2022-12-19 22:14:13 >>> Directory: .vscode
+2022-12-19 22:14:13 >>> Directory: bin
+2022-12-19 22:14:13 >>> Directory: img
+2022-12-19 22:14:13 >>> Directory: lib
+2022-12-19 22:14:13 >>> Directory: log
+2022-12-19 22:14:13 >>> Directory: src
+2022-12-19 22:14:13 >>> Directory: style
+2022-12-19 22:14:13 >>> Directory: www
+2022-12-19 22:14:13 >>> File: README.md
+2022-12-19 22:14:13 
+2022-12-19 22:14:13 Http Worker is working...
+2022-12-19 22:14:13 GET /img/page.png HTTP/1.1
+2022-12-19 22:14:13 
+2022-12-19 22:14:13 Http Worker is working...
+2022-12-19 22:14:13 GET /img/folder.png HTTP/1.1
+2022-12-19 22:14:13 
+2022-12-19 22:14:13 Http Worker is working...
+2022-12-19 22:14:13 GET /favicon.ico HTTP/1.1
+2022-12-19 22:14:13 >> No such resource:/favicon.ico
+2022-12-19 22:14:31 
+2022-12-19 22:14:31 Http Worker is working...
+2022-12-19 22:14:31 GET /www HTTP/1.1
+2022-12-19 22:14:31 > This is a [DIRECTORY EXPLORE] request..
+2022-12-19 22:14:31 >> Explore the content under folder: www
+2022-12-19 22:14:31 >>> File: page.html

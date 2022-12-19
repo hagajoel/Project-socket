@@ -8,10 +8,14 @@ import java.net.Socket;
 
 public class WebServer {
     int port = 8008;
+
     int length = 6;
     Socket socket;
 
+
+
     public WebServer(){
+        
         try {
             ServerSocket serversocket = new ServerSocket(port, length);
             System.out.println("Starting web server at port: "+port);
@@ -45,4 +49,5 @@ public class WebServer {
         }
 
     }
+
 }

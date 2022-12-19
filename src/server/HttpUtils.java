@@ -201,7 +201,7 @@ public class HttpUtils extends Thread{
             for (File folder: folders) {
                 LogUtil.write(">>> Directory: " + folder.getName());
                 sbDirHtml.append("<tr>");
-                sbDirHtml.append("  <td><img src=\""+buildImageLink(req,"src/img/folder.png")+"\"></img><a href=\""+buildRelativeLink(req, folder.getName())+"\">"+folder.getName()+"</a></td>");
+                sbDirHtml.append("  <td><img src=\""+buildImageLink(req,"img/folder.png")+"\"></img><a href=\""+buildRelativeLink(req, folder.getName())+"\">"+folder.getName()+"</a></td>");
                 sbDirHtml.append("  <td>" + getFormattedDate(folder.lastModified()) + "</td>");
                 sbDirHtml.append("  <td></td>");
                 sbDirHtml.append("</tr>");
@@ -242,7 +242,7 @@ public class HttpUtils extends Thread{
         sbHtml.append("<!DOCTYPE html>");
         sbHtml.append("<html>");
         sbHtml.append("<head>");
-        sbHtml.append("<link href='/style/style.css'></link>");
+        sbHtml.append("<link href='style/style.css'></link>");
         sbHtml.append("<title>My Web Server</title>");
         sbHtml.append("</head>");
         sbHtml.append("<body>");
@@ -265,7 +265,7 @@ public class HttpUtils extends Thread{
         sbHtml.append("HTTP/1.1 " + code + " " + title + "\r\n\r\n");
         sbHtml.append("<!DOCTYPE html>");
         sbHtml.append("<html>");
-        sbHtml.append("<link href='/style/style.css'></link>");
+        sbHtml.append("<link href='style/style.css'></link>");
         sbHtml.append("<head>");
         sbHtml.append("<title>" + code + " " + title + "</title>");
         sbHtml.append("</head>");
