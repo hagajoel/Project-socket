@@ -30,7 +30,6 @@ public class HttpUtils extends Thread{
         clientRequest = req;
     }
 
-
     public void run(){
         try{
             // Clear list each time for handling new request

@@ -130,3 +130,70 @@
 2022-12-19 19:11:05 Http Worker is working...
 2022-12-19 19:11:05 GET /favicon.ico HTTP/1.1
 2022-12-19 19:11:05 >> No such resource:/favicon.ico
+2022-12-19 20:34:34 
+2022-12-19 20:34:35 Http Worker is working...
+2022-12-19 20:34:35 GET / HTTP/1.1
+2022-12-19 20:34:35 > This is a [DIRECTORY EXPLORE] request..
+2022-12-19 20:34:35 >> Explore the content under folder: Project-socket
+2022-12-19 20:34:35 >>> Directory: .git
+2022-12-19 20:34:35 >>> Directory: .vscode
+2022-12-19 20:34:35 >>> Directory: bin
+2022-12-19 20:34:35 >>> Directory: lib
+2022-12-19 20:34:35 >>> Directory: log
+2022-12-19 20:34:35 >>> Directory: src
+2022-12-19 20:34:35 >>> Directory: style
+2022-12-19 20:34:35 >>> Directory: www
+2022-12-19 20:34:35 >>> File: README.md
+2022-12-19 20:34:35 
+2022-12-19 20:34:35 Http Worker is working...
+2022-12-19 20:34:35 GET /src/img/page.png HTTP/1.1
+2022-12-19 20:34:35 > This is a [SINGLE FILE] request..
+2022-12-19 20:34:35 
+2022-12-19 20:34:35 Http Worker is working...
+2022-12-19 20:34:35 GET /src/img/folder.png HTTP/1.1
+2022-12-19 20:34:35 > This is a [SINGLE FILE] request..
+2022-12-19 20:34:36 
+2022-12-19 20:34:36 Http Worker is working...
+2022-12-19 20:34:36 GET /favicon.ico HTTP/1.1
+2022-12-19 20:34:36 >> No such resource:/favicon.ico
+2022-12-19 20:36:00 
+2022-12-19 20:36:00 Http Worker is working...
+2022-12-19 20:36:00 GET /www HTTP/1.1
+2022-12-19 20:36:00 > This is a [DIRECTORY EXPLORE] request..
+2022-12-19 20:36:00 >> Explore the content under folder: www
+2022-12-19 20:36:00 >>> File: page.html
+2022-12-19 20:36:00 
+2022-12-19 20:36:00 Http Worker is working...
+2022-12-19 20:36:00 GET /src/img/page_white_code.png HTTP/1.1
+2022-12-19 20:36:00 > This is a [SINGLE FILE] request..
+2022-12-19 20:36:00 
+2022-12-19 20:36:00 Http Worker is working...
+2022-12-19 20:36:00 GET /src/img/folder.png HTTP/1.1
+2022-12-19 20:36:00 > This is a [SINGLE FILE] request..
+2022-12-19 20:36:00 
+2022-12-19 20:36:00 Http Worker is working...
+2022-12-19 20:36:00 GET /favicon.ico HTTP/1.1
+2022-12-19 20:36:00 >> No such resource:/favicon.ico
+2022-12-19 20:36:14 
+2022-12-19 20:36:14 Http Worker is working...
+2022-12-19 20:36:14 GET /www/page.html HTTP/1.1
+2022-12-19 20:36:14 > This is a [SINGLE FILE] request..
+2022-12-19 20:36:14 >> Seek the content of file: page.html
+2022-12-19 20:36:14 
+2022-12-19 20:36:14 Http Worker is working...
+2022-12-19 20:36:14 GET /www/style/style.css HTTP/1.1
+2022-12-19 20:36:14 > This is a [SINGLE FILE] request..
+2022-12-19 20:36:14 >> No such resource:/www/style/style.css
+2022-12-19 20:36:14 
+2022-12-19 20:36:14 Http Worker is working...
+2022-12-19 20:36:14 GET /favicon.ico HTTP/1.1
+2022-12-19 20:36:14 >> No such resource:/favicon.ico
+2022-12-19 20:36:27 
+2022-12-19 20:36:27 Http Worker is working...
+2022-12-19 20:36:27 GET /page.fake-cgi?person=haga&num1=10&num2=2 HTTP/1.1
+2022-12-19 20:36:27 > This is a [CGI] request..
+2022-12-19 20:36:27 >> 10 + 2 = 12
+2022-12-19 20:36:27 
+2022-12-19 20:36:27 Http Worker is working...
+2022-12-19 20:36:27 GET /favicon.ico HTTP/1.1
+2022-12-19 20:36:27 >> No such resource:/favicon.ico

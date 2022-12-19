@@ -1,4 +1,4 @@
-javac -d . ui/StartFrame.java
+javac -d . log/*.javac
+javac -d . server/*.java
 javac -d . App.java
-
 java App
