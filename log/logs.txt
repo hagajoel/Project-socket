@@ -1,88 +1,1090 @@
-2022-12-19 22:13:22 
-2022-12-19 22:13:22 Http Worker is working...
-2022-12-19 22:13:22 GET / HTTP/1.1
-2022-12-19 22:13:22 > This is a [DIRECTORY EXPLORE] request..
-2022-12-19 22:13:22 >> Explore the content under folder: Project-socket
-2022-12-19 22:13:22 >>> Directory: .git
-2022-12-19 22:13:22 >>> Directory: .vscode
-2022-12-19 22:13:22 >>> Directory: bin
-2022-12-19 22:13:22 >>> Directory: img
-2022-12-19 22:13:22 >>> Directory: lib
-2022-12-19 22:13:22 >>> Directory: log
-2022-12-19 22:13:22 >>> Directory: src
-2022-12-19 22:13:22 >>> Directory: style
-2022-12-19 22:13:22 >>> Directory: www
-2022-12-19 22:13:22 >>> File: README.md
-2022-12-19 22:13:22 
-2022-12-19 22:13:22 
-2022-12-19 22:13:22 Http Worker is working...
-2022-12-19 22:13:22 GET /img/folder.png HTTP/1.1
-2022-12-19 22:13:22 
-2022-12-19 22:13:22 Http Worker is working...
-2022-12-19 22:13:22 GET /favicon.ico HTTP/1.1
-2022-12-19 22:13:22 >> No such resource:/favicon.ico
-2022-12-19 22:14:12 
-2022-12-19 22:14:12 Http Worker is working...
-2022-12-19 22:14:12 GET / HTTP/1.1
-2022-12-19 22:14:12 
-2022-12-19 22:14:12 > This is a [DIRECTORY EXPLORE] request..
-2022-12-19 22:14:12 Http Worker is working...
-2022-12-19 22:14:12 GET / HTTP/1.1
-2022-12-19 22:14:12 >> Explore the content under folder: Project-socket
-2022-12-19 22:14:12 >>> Directory: .git
-2022-12-19 22:14:12 >>> Directory: .vscode
-2022-12-19 22:14:12 >>> Directory: bin
-2022-12-19 22:14:12 >>> Directory: img
-2022-12-19 22:14:12 >>> Directory: lib
-2022-12-19 22:14:12 >>> Directory: log
-2022-12-19 22:14:12 > This is a [DIRECTORY EXPLORE] request..
-2022-12-19 22:14:12 >>> Directory: src
-2022-12-19 22:14:12 >>> Directory: style
-2022-12-19 22:14:12 >>> Directory: www
-2022-12-19 22:14:12 >>> File: README.md
-2022-12-19 22:14:12 
-2022-12-19 22:14:12 Http Worker is working...
-2022-12-19 22:14:12 GET / HTTP/1.1
-2022-12-19 22:14:12 
-2022-12-19 22:14:12 > This is a [DIRECTORY EXPLORE] request..
-2022-12-19 22:14:12 Http Worker is working...
-2022-12-19 22:14:12 GET / HTTP/1.1
-2022-12-19 22:14:12 >> Explore the content under folder: Project-socket
-2022-12-19 22:14:12 >>> Directory: .git
-2022-12-19 22:14:12 >>> Directory: .vscode
-2022-12-19 22:14:12 >>> Directory: bin
-2022-12-19 22:14:12 >>> Directory: img
-2022-12-19 22:14:12 >>> Directory: lib
-2022-12-19 22:14:12 >>> Directory: log
-2022-12-19 22:14:12 > This is a [DIRECTORY EXPLORE] request..
-2022-12-19 22:14:12 >>> Directory: src
-2022-12-19 22:14:12 >>> Directory: style
-2022-12-19 22:14:12 >>> Directory: www
-2022-12-19 22:14:12 >>> File: README.md
-2022-12-19 22:14:12 >> Explore the content under folder: Project-socket
-2022-12-19 22:14:12 >>> Directory: .git
-2022-12-19 22:14:13 >>> Directory: .vscode
-2022-12-19 22:14:13 >>> Directory: bin
-2022-12-19 22:14:13 >>> Directory: img
-2022-12-19 22:14:13 >>> Directory: lib
-2022-12-19 22:14:13 >>> Directory: log
-2022-12-19 22:14:13 >>> Directory: src
-2022-12-19 22:14:13 >>> Directory: style
-2022-12-19 22:14:13 >>> Directory: www
-2022-12-19 22:14:13 >>> File: README.md
-2022-12-19 22:14:13 
-2022-12-19 22:14:13 Http Worker is working...
-2022-12-19 22:14:13 GET /img/page.png HTTP/1.1
-2022-12-19 22:14:13 
-2022-12-19 22:14:13 Http Worker is working...
-2022-12-19 22:14:13 GET /img/folder.png HTTP/1.1
-2022-12-19 22:14:13 
-2022-12-19 22:14:13 Http Worker is working...
-2022-12-19 22:14:13 GET /favicon.ico HTTP/1.1
-2022-12-19 22:14:13 >> No such resource:/favicon.ico
-2022-12-19 22:14:31 
-2022-12-19 22:14:31 Http Worker is working...
-2022-12-19 22:14:31 GET /www HTTP/1.1
-2022-12-19 22:14:31 > This is a [DIRECTORY EXPLORE] request..
-2022-12-19 22:14:31 >> Explore the content under folder: www
-2022-12-19 22:14:31 >>> File: page.html
+2022-12-20 00:48:37 
+2022-12-20 00:48:37 Http Worker is working...
+2022-12-20 00:48:37 GET / HTTP/1.1
+2022-12-20 00:48:37 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:48:37 >> Explore the content under folder: Project-socket
+2022-12-20 00:48:37 >>> Directory: .git
+2022-12-20 00:48:37 >>> Directory: .vscode
+2022-12-20 00:48:37 >>> Directory: bin
+2022-12-20 00:48:37 >>> Directory: img
+2022-12-20 00:48:37 >>> Directory: log
+2022-12-20 00:48:37 >>> Directory: src
+2022-12-20 00:48:37 >>> Directory: www
+2022-12-20 00:48:37 >>> File: README.md
+2022-12-20 00:48:38 
+2022-12-20 00:48:38 Http Worker is working...
+2022-12-20 00:48:38 GET /style/style.css HTTP/1.1
+2022-12-20 00:48:38 > This is a [SINGLE FILE] request..
+2022-12-20 00:48:38 >> No such resource:/style/style.css
+2022-12-20 00:52:06 
+2022-12-20 00:52:06 Http Worker is working...
+2022-12-20 00:52:06 GET / HTTP/1.1
+2022-12-20 00:52:06 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:52:06 >> Explore the content under folder: Project-socket
+2022-12-20 00:52:06 >>> Directory: .git
+2022-12-20 00:52:06 >>> Directory: .vscode
+2022-12-20 00:52:06 >>> Directory: bin
+2022-12-20 00:52:06 >>> Directory: img
+2022-12-20 00:52:06 >>> Directory: log
+2022-12-20 00:52:06 >>> Directory: src
+2022-12-20 00:52:06 >>> Directory: www
+2022-12-20 00:52:06 >>> File: README.md
+2022-12-20 00:52:06 
+2022-12-20 00:52:06 Http Worker is working...
+2022-12-20 00:52:06 Http Worker is working...
+2022-12-20 00:52:06 GET /style/style.css HTTP/1.1
+2022-12-20 00:52:06 > This is a [SINGLE FILE] request..
+2022-12-20 00:52:06 GET /img/folder.png HTTP/1.1
+2022-12-20 00:52:06 >> No such resource:/style/style.css
+2022-12-20 00:52:06 
+2022-12-20 00:52:06 Http Worker is working...
+2022-12-20 00:52:06 
+2022-12-20 00:52:06 Http Worker is working...
+2022-12-20 00:52:06 GET /img/page.png HTTP/1.1
+2022-12-20 00:52:06 
+2022-12-20 00:52:06 Http Worker is working...
+2022-12-20 00:52:06 GET /favicon.ico HTTP/1.1
+2022-12-20 00:52:06 >> No such resource:/favicon.ico
+2022-12-20 00:52:09 
+2022-12-20 00:52:09 Http Worker is working...
+2022-12-20 00:52:09 GET /www HTTP/1.1
+2022-12-20 00:52:09 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:52:09 >> Explore the content under folder: www
+2022-12-20 00:52:09 >>> File: page.html
+2022-12-20 00:52:09 GET /img/folder.png HTTP/1.1
+2022-12-20 00:52:09 
+2022-12-20 00:52:09 Http Worker is working...
+2022-12-20 00:52:09 Http Worker is working...
+2022-12-20 00:52:09 GET /style/style.css HTTP/1.1
+2022-12-20 00:52:09 GET /img/page_white_code.png HTTP/1.1
+2022-12-20 00:52:09 GET /img/folder.png HTTP/1.1
+2022-12-20 00:52:09 
+2022-12-20 00:52:09 Http Worker is working...
+2022-12-20 00:52:09 Http Worker is working...
+2022-12-20 00:52:09 GET /style/style.css HTTP/1.1
+2022-12-20 00:52:09 GET /img/page_white_code.png HTTP/1.1
+2022-12-20 00:52:09 > This is a [SINGLE FILE] request..
+2022-12-20 00:52:09 >> No such resource:/style/style.css
+2022-12-20 00:52:09 GET /img/folder.png HTTP/1.1
+2022-12-20 00:52:09 
+2022-12-20 00:52:09 Http Worker is working...
+2022-12-20 00:52:09 Http Worker is working...
+2022-12-20 00:52:09 GET /style/style.css HTTP/1.1
+2022-12-20 00:52:09 GET /img/page_white_code.png HTTP/1.1
+2022-12-20 00:52:09 > This is a [SINGLE FILE] request..
+2022-12-20 00:52:09 >> No such resource:/style/style.css
+2022-12-20 00:52:09 
+2022-12-20 00:52:09 Http Worker is working...
+2022-12-20 00:52:09 GET /favicon.ico HTTP/1.1
+2022-12-20 00:52:09 >> No such resource:/favicon.ico
+2022-12-20 00:52:12 
+2022-12-20 00:52:12 Http Worker is working...
+2022-12-20 00:52:12 GET /favicon.ico HTTP/1.1
+2022-12-20 00:52:12 >> No such resource:/favicon.ico
+2022-12-20 00:53:52 
+2022-12-20 00:53:52 Http Worker is working...
+2022-12-20 00:53:52 GET / HTTP/1.1
+2022-12-20 00:53:52 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:53:52 >> Explore the content under folder: Project-socket
+2022-12-20 00:53:52 >>> Directory: .git
+2022-12-20 00:53:52 >>> Directory: .vscode
+2022-12-20 00:53:52 >>> Directory: bin
+2022-12-20 00:53:52 >>> Directory: img
+2022-12-20 00:53:52 >>> Directory: log
+2022-12-20 00:53:52 >>> Directory: src
+2022-12-20 00:53:52 >>> Directory: www
+2022-12-20 00:53:52 >>> File: README.md
+2022-12-20 00:53:52 
+2022-12-20 00:53:52 Http Worker is working...
+2022-12-20 00:53:52 Http Worker is working...
+2022-12-20 00:53:52 Http Worker is working...
+2022-12-20 00:53:52 GET /style/style.css HTTP/1.1
+2022-12-20 00:53:52 GET /img/folder.png HTTP/1.1
+2022-12-20 00:53:52 GET /img/page.png HTTP/1.1
+2022-12-20 00:53:52 > This is a [SINGLE FILE] request..
+2022-12-20 00:53:52 
+2022-12-20 00:53:52 Http Worker is working...
+2022-12-20 00:53:52 Http Worker is working...
+2022-12-20 00:53:52 Http Worker is working...
+2022-12-20 00:53:52 GET /style/style.css HTTP/1.1
+2022-12-20 00:53:52 GET /img/folder.png HTTP/1.1
+2022-12-20 00:53:52 GET /img/page.png HTTP/1.1
+2022-12-20 00:53:52 > This is a [SINGLE FILE] request..
+2022-12-20 00:53:52 >> No such resource:/style/style.css
+2022-12-20 00:53:52 
+2022-12-20 00:53:52 Http Worker is working...
+2022-12-20 00:53:52 Http Worker is working...
+2022-12-20 00:53:52 Http Worker is working...
+2022-12-20 00:53:52 GET /style/style.css HTTP/1.1
+2022-12-20 00:53:52 GET /img/folder.png HTTP/1.1
+2022-12-20 00:53:52 GET /img/page.png HTTP/1.1
+2022-12-20 00:53:52 > This is a [SINGLE FILE] request..
+2022-12-20 00:53:52 >> No such resource:/style/style.css
+2022-12-20 00:53:52 
+2022-12-20 00:53:52 Http Worker is working...
+2022-12-20 00:53:52 GET /favicon.ico HTTP/1.1
+2022-12-20 00:53:52 >> No such resource:/favicon.ico
+2022-12-20 00:53:54 
+2022-12-20 00:53:54 Http Worker is working...
+2022-12-20 00:53:54 GET /www HTTP/1.1
+2022-12-20 00:53:54 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:53:54 >> Explore the content under folder: www
+2022-12-20 00:53:54 >>> File: page.html
+2022-12-20 00:53:55 Http Worker is working...
+2022-12-20 00:53:55 Http Worker is working...
+2022-12-20 00:53:55 
+2022-12-20 00:53:55 GET /style/style.css HTTP/1.1
+2022-12-20 00:53:55 Http Worker is working...
+2022-12-20 00:53:55 GET /img/page_white_code.png HTTP/1.1
+2022-12-20 00:53:55 GET /img/folder.png HTTP/1.1
+2022-12-20 00:53:55 > This is a [SINGLE FILE] request..
+2022-12-20 00:53:55 >> No such resource:/style/style.css
+2022-12-20 00:53:55 Http Worker is working...
+2022-12-20 00:53:55 Http Worker is working...
+2022-12-20 00:53:55 
+2022-12-20 00:53:55 GET /style/style.css HTTP/1.1
+2022-12-20 00:53:55 Http Worker is working...
+2022-12-20 00:53:55 GET /img/page_white_code.png HTTP/1.1
+2022-12-20 00:53:55 GET /img/folder.png HTTP/1.1
+2022-12-20 00:53:55 > This is a [SINGLE FILE] request..
+2022-12-20 00:53:55 >> No such resource:/style/style.css
+2022-12-20 00:53:55 Http Worker is working...
+2022-12-20 00:53:55 Http Worker is working...
+2022-12-20 00:53:55 
+2022-12-20 00:53:55 GET /style/style.css HTTP/1.1
+2022-12-20 00:53:55 Http Worker is working...
+2022-12-20 00:53:55 GET /img/page_white_code.png HTTP/1.1
+2022-12-20 00:53:55 GET /img/folder.png HTTP/1.1
+2022-12-20 00:53:55 > This is a [SINGLE FILE] request..
+2022-12-20 00:53:55 >> No such resource:/style/style.css
+2022-12-20 00:53:55 
+2022-12-20 00:53:55 Http Worker is working...
+2022-12-20 00:53:55 GET /favicon.ico HTTP/1.1
+2022-12-20 00:53:55 >> No such resource:/favicon.ico
+2022-12-20 00:53:58 
+2022-12-20 00:53:58 Http Worker is working...
+2022-12-20 00:53:58 GET / HTTP/1.1
+2022-12-20 00:53:58 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:53:58 >> Explore the content under folder: Project-socket
+2022-12-20 00:53:58 >>> Directory: .git
+2022-12-20 00:53:58 >>> Directory: .vscode
+2022-12-20 00:53:58 >>> Directory: bin
+2022-12-20 00:53:58 >>> Directory: img
+2022-12-20 00:53:58 >>> Directory: log
+2022-12-20 00:53:58 >>> Directory: src
+2022-12-20 00:53:58 >>> Directory: www
+2022-12-20 00:53:58 >>> File: README.md
+2022-12-20 00:53:58 
+2022-12-20 00:53:58 
+2022-12-20 00:53:58 Http Worker is working...
+2022-12-20 00:53:58 GET /img/folder.png HTTP/1.1
+2022-12-20 00:53:58 
+2022-12-20 00:53:58 Http Worker is working...
+2022-12-20 00:53:58 Http Worker is working...
+2022-12-20 00:53:58 GET /style/style.css HTTP/1.1
+2022-12-20 00:53:58 > This is a [SINGLE FILE] request..
+2022-12-20 00:53:58 GET /img/page.png HTTP/1.1
+2022-12-20 00:53:58 
+2022-12-20 00:53:58 Http Worker is working...
+2022-12-20 00:53:58 Http Worker is working...
+2022-12-20 00:53:58 GET /style/style.css HTTP/1.1
+2022-12-20 00:53:58 > This is a [SINGLE FILE] request..
+2022-12-20 00:53:58 GET /img/page.png HTTP/1.1
+2022-12-20 00:53:58 >> No such resource:/style/style.css
+2022-12-20 00:53:59 
+2022-12-20 00:53:59 Http Worker is working...
+2022-12-20 00:53:59 GET /favicon.ico HTTP/1.1
+2022-12-20 00:53:59 >> No such resource:/favicon.ico
+2022-12-20 00:54:03 
+2022-12-20 00:54:03 Http Worker is working...
+2022-12-20 00:54:03 GET /src HTTP/1.1
+2022-12-20 00:54:03 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:54:03 >> Explore the content under folder: src
+2022-12-20 00:54:03 >>> Directory: log
+2022-12-20 00:54:03 >>> Directory: server
+2022-12-20 00:54:03 >>> File: App.java
+2022-12-20 00:54:03 Http Worker is working...
+2022-12-20 00:54:03 
+2022-12-20 00:54:03 GET /img/page_white_cup.png HTTP/1.1
+2022-12-20 00:54:03 Http Worker is working...
+2022-12-20 00:54:03 
+2022-12-20 00:54:03 GET /img/page_white_cup.png HTTP/1.1
+2022-12-20 00:54:03 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:03 Http Worker is working...
+2022-12-20 00:54:03 Http Worker is working...
+2022-12-20 00:54:03 
+2022-12-20 00:54:03 GET /img/page_white_cup.png HTTP/1.1
+2022-12-20 00:54:03 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:03 Http Worker is working...
+2022-12-20 00:54:03 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:03 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:03 >> No such resource:/style/style.css
+2022-12-20 00:54:03 
+2022-12-20 00:54:03 Http Worker is working...
+2022-12-20 00:54:03 GET /favicon.ico HTTP/1.1
+2022-12-20 00:54:03 >> No such resource:/favicon.ico
+2022-12-20 00:54:05 
+2022-12-20 00:54:05 Http Worker is working...
+2022-12-20 00:54:05 GET /src/App.java HTTP/1.1
+2022-12-20 00:54:05 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:05 >> Seek the content of file: App.java
+2022-12-20 00:54:05 
+2022-12-20 00:54:05 Http Worker is working...
+2022-12-20 00:54:05 GET /favicon.ico HTTP/1.1
+2022-12-20 00:54:05 >> No such resource:/favicon.ico
+2022-12-20 00:54:07 
+2022-12-20 00:54:07 Http Worker is working...
+2022-12-20 00:54:07 GET /favicon.ico HTTP/1.1
+2022-12-20 00:54:07 >> No such resource:/favicon.ico
+2022-12-20 00:54:09 
+2022-12-20 00:54:09 Http Worker is working...
+2022-12-20 00:54:09 GET / HTTP/1.1
+2022-12-20 00:54:09 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:54:09 >> Explore the content under folder: Project-socket
+2022-12-20 00:54:09 >>> Directory: .git
+2022-12-20 00:54:09 >>> Directory: .vscode
+2022-12-20 00:54:09 >>> Directory: bin
+2022-12-20 00:54:09 >>> Directory: img
+2022-12-20 00:54:09 >>> Directory: log
+2022-12-20 00:54:09 >>> Directory: src
+2022-12-20 00:54:09 >>> Directory: www
+2022-12-20 00:54:09 >>> File: README.md
+2022-12-20 00:54:09 
+2022-12-20 00:54:09 
+2022-12-20 00:54:09 Http Worker is working...
+2022-12-20 00:54:09 GET /img/page.png HTTP/1.1
+2022-12-20 00:54:09 Http Worker is working...
+2022-12-20 00:54:09 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:09 
+2022-12-20 00:54:09 
+2022-12-20 00:54:09 Http Worker is working...
+2022-12-20 00:54:09 GET /img/page.png HTTP/1.1
+2022-12-20 00:54:09 Http Worker is working...
+2022-12-20 00:54:09 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:09 
+2022-12-20 00:54:09 Http Worker is working...
+2022-12-20 00:54:09 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:09 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:09 >> No such resource:/style/style.css
+2022-12-20 00:54:09 
+2022-12-20 00:54:10 Http Worker is working...
+2022-12-20 00:54:10 GET /favicon.ico HTTP/1.1
+2022-12-20 00:54:10 >> No such resource:/favicon.ico
+2022-12-20 00:54:11 
+2022-12-20 00:54:11 Http Worker is working...
+2022-12-20 00:54:11 GET /log HTTP/1.1
+2022-12-20 00:54:11 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:54:11 >> Explore the content under folder: log
+2022-12-20 00:54:11 >>> File: logs.txt
+2022-12-20 00:54:11 
+2022-12-20 00:54:11 Http Worker is working...
+2022-12-20 00:54:11 Http Worker is working...
+2022-12-20 00:54:11 GET /img/page_white_text.png HTTP/1.1
+2022-12-20 00:54:11 
+2022-12-20 00:54:11 Http Worker is working...
+2022-12-20 00:54:11 Http Worker is working...
+2022-12-20 00:54:11 GET /img/page_white_text.png HTTP/1.1
+2022-12-20 00:54:11 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:11 
+2022-12-20 00:54:11 Http Worker is working...
+2022-12-20 00:54:11 Http Worker is working...
+2022-12-20 00:54:11 GET /img/page_white_text.png HTTP/1.1
+2022-12-20 00:54:11 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:11 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:11 >> No such resource:/style/style.css
+2022-12-20 00:54:11 
+2022-12-20 00:54:11 Http Worker is working...
+2022-12-20 00:54:11 GET /favicon.ico HTTP/1.1
+2022-12-20 00:54:11 >> No such resource:/favicon.ico
+2022-12-20 00:54:11 
+2022-12-20 00:54:12 Http Worker is working...
+2022-12-20 00:54:12 GET /log/logs.txt HTTP/1.1
+2022-12-20 00:54:12 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:12 >> Seek the content of file: logs.txt
+2022-12-20 00:54:12 
+2022-12-20 00:54:12 Http Worker is working...
+2022-12-20 00:54:12 GET /favicon.ico HTTP/1.1
+2022-12-20 00:54:12 >> No such resource:/favicon.ico
+2022-12-20 00:54:16 
+2022-12-20 00:54:16 Http Worker is working...
+2022-12-20 00:54:16 GET /favicon.ico HTTP/1.1
+2022-12-20 00:54:16 >> No such resource:/favicon.ico
+2022-12-20 00:54:17 
+2022-12-20 00:54:17 Http Worker is working...
+2022-12-20 00:54:17 GET / HTTP/1.1
+2022-12-20 00:54:17 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:54:17 >> Explore the content under folder: Project-socket
+2022-12-20 00:54:17 >>> Directory: .git
+2022-12-20 00:54:17 >>> Directory: .vscode
+2022-12-20 00:54:17 >>> Directory: bin
+2022-12-20 00:54:17 >>> Directory: img
+2022-12-20 00:54:17 >>> Directory: log
+2022-12-20 00:54:17 >>> Directory: src
+2022-12-20 00:54:17 >>> Directory: www
+2022-12-20 00:54:17 >>> File: README.md
+2022-12-20 00:54:17 Http Worker is working...
+2022-12-20 00:54:17 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:17 
+2022-12-20 00:54:17 Http Worker is working...
+2022-12-20 00:54:17 Http Worker is working...
+2022-12-20 00:54:17 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:17 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:17 GET /img/page.png HTTP/1.1
+2022-12-20 00:54:17 Http Worker is working...
+2022-12-20 00:54:17 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:17 
+2022-12-20 00:54:17 Http Worker is working...
+2022-12-20 00:54:17 Http Worker is working...
+2022-12-20 00:54:17 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:17 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:17 GET /img/page.png HTTP/1.1
+2022-12-20 00:54:17 >> No such resource:/style/style.css
+2022-12-20 00:54:17 Http Worker is working...
+2022-12-20 00:54:17 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:17 
+2022-12-20 00:54:17 Http Worker is working...
+2022-12-20 00:54:17 Http Worker is working...
+2022-12-20 00:54:17 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:17 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:17 GET /img/page.png HTTP/1.1
+2022-12-20 00:54:17 >> No such resource:/style/style.css
+2022-12-20 00:54:17 
+2022-12-20 00:54:17 Http Worker is working...
+2022-12-20 00:54:17 GET /favicon.ico HTTP/1.1
+2022-12-20 00:54:17 >> No such resource:/favicon.ico
+2022-12-20 00:54:19 
+2022-12-20 00:54:19 Http Worker is working...
+2022-12-20 00:54:19 GET /www HTTP/1.1
+2022-12-20 00:54:19 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:54:19 >> Explore the content under folder: www
+2022-12-20 00:54:19 >>> File: page.html
+2022-12-20 00:54:22 
+2022-12-20 00:54:22 Http Worker is working...
+2022-12-20 00:54:22 GET / HTTP/1.1
+2022-12-20 00:54:22 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:54:22 >> Explore the content under folder: Project-socket
+2022-12-20 00:54:22 >>> Directory: .git
+2022-12-20 00:54:22 >>> Directory: .vscode
+2022-12-20 00:54:22 >>> Directory: bin
+2022-12-20 00:54:22 >>> Directory: img
+2022-12-20 00:54:22 >>> Directory: log
+2022-12-20 00:54:22 >>> Directory: src
+2022-12-20 00:54:22 >>> Directory: www
+2022-12-20 00:54:22 >>> File: README.md
+2022-12-20 00:54:22 
+2022-12-20 00:54:22 Http Worker is working...
+2022-12-20 00:54:22 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:22 
+2022-12-20 00:54:22 
+2022-12-20 00:54:22 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:22 Http Worker is working...
+2022-12-20 00:54:22 GET /img/page.png HTTP/1.1
+2022-12-20 00:54:22 
+2022-12-20 00:54:22 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:22 Http Worker is working...
+2022-12-20 00:54:22 GET /img/page.png HTTP/1.1
+2022-12-20 00:54:22 >> No such resource:/style/style.css
+2022-12-20 00:54:24 
+2022-12-20 00:54:24 Http Worker is working...
+2022-12-20 00:54:24 GET /bin HTTP/1.1
+2022-12-20 00:54:24 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:54:24 >> Explore the content under folder: bin
+2022-12-20 00:54:24 
+2022-12-20 00:54:24 Http Worker is working...
+2022-12-20 00:54:24 Http Worker is working...
+2022-12-20 00:54:24 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:24 
+2022-12-20 00:54:24 Http Worker is working...
+2022-12-20 00:54:24 Http Worker is working...
+2022-12-20 00:54:24 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:25 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:25 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:25 >> No such resource:/style/style.css
+2022-12-20 00:54:26 
+2022-12-20 00:54:26 Http Worker is working...
+2022-12-20 00:54:26 GET / HTTP/1.1
+2022-12-20 00:54:26 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:54:26 >> Explore the content under folder: Project-socket
+2022-12-20 00:54:26 >>> Directory: .git
+2022-12-20 00:54:26 >>> Directory: .vscode
+2022-12-20 00:54:26 >>> Directory: bin
+2022-12-20 00:54:26 >>> Directory: img
+2022-12-20 00:54:26 >>> Directory: log
+2022-12-20 00:54:26 >>> Directory: src
+2022-12-20 00:54:26 >>> Directory: www
+2022-12-20 00:54:26 >>> File: README.md
+2022-12-20 00:54:26 
+2022-12-20 00:54:26 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:26 Http Worker is working...
+2022-12-20 00:54:26 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:26 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:26 >> No such resource:/style/style.css
+2022-12-20 00:54:26 
+2022-12-20 00:54:26 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:26 Http Worker is working...
+2022-12-20 00:54:26 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:26 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:26 >> No such resource:/style/style.css
+2022-12-20 00:54:26 
+2022-12-20 00:54:26 Http Worker is working...
+2022-12-20 00:54:26 GET /img/page.png HTTP/1.1
+2022-12-20 00:54:27 
+2022-12-20 00:54:27 Http Worker is working...
+2022-12-20 00:54:27 GET /img HTTP/1.1
+2022-12-20 00:54:27 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:54:27 >> Explore the content under folder: img
+2022-12-20 00:54:27 >>> File: application_xp.png
+2022-12-20 00:54:27 >>> File: application_xp_terminal.png
+2022-12-20 00:54:27 >>> File: box.png
+2022-12-20 00:54:27 >>> File: cd.png
+2022-12-20 00:54:27 >>> File: controller.png
+2022-12-20 00:54:27 >>> File: drive.png
+2022-12-20 00:54:27 >>> File: favicon.ico
+2022-12-20 00:54:27 >>> File: film.png
+2022-12-20 00:54:27 >>> File: folder.png
+2022-12-20 00:54:27 >>> File: font.png
+2022-12-20 00:54:27 >>> File: image.png
+2022-12-20 00:54:27 >>> File: map.png
+2022-12-20 00:54:27 >>> File: page.png
+2022-12-20 00:54:27 >>> File: page_add.png
+2022-12-20 00:54:27 >>> File: page_attach.png
+2022-12-20 00:54:27 >>> File: page_code.png
+2022-12-20 00:54:27 >>> File: page_copy.png
+2022-12-20 00:54:27 >>> File: page_delete.png
+2022-12-20 00:54:27 >>> File: page_edit.png
+2022-12-20 00:54:27 >>> File: page_error.png
+2022-12-20 00:54:27 >>> File: page_excel.png
+2022-12-20 00:54:27 >>> File: page_find.png
+2022-12-20 00:54:27 >>> File: page_gear.png
+2022-12-20 00:54:27 >>> File: page_go.png
+2022-12-20 00:54:27 >>> File: page_green.png
+2022-12-20 00:54:27 >>> File: page_key.png
+2022-12-20 00:54:27 >>> File: page_lightning.png
+2022-12-20 00:54:27 >>> File: page_link.png
+2022-12-20 00:54:27 >>> File: page_paintbrush.png
+2022-12-20 00:54:27 >>> File: page_paste.png
+2022-12-20 00:54:27 >>> File: page_red.png
+2022-12-20 00:54:27 >>> File: page_refresh.png
+2022-12-20 00:54:27 >>> File: page_save.png
+2022-12-20 00:54:27 >>> File: page_white.png
+2022-12-20 00:54:27 >>> File: page_white_acrobat.png
+2022-12-20 00:54:27 >>> File: page_white_actionscript.png
+2022-12-20 00:54:27 >>> File: page_white_add.png
+2022-12-20 00:54:27 >>> File: page_white_c.png
+2022-12-20 00:54:27 >>> File: page_white_camera.png
+2022-12-20 00:54:27 >>> File: page_white_cd.png
+2022-12-20 00:54:27 >>> File: page_white_code.png
+2022-12-20 00:54:27 >>> File: page_white_code_red.png
+2022-12-20 00:54:27 >>> File: page_white_coldfusion.png
+2022-12-20 00:54:27 >>> File: page_white_compressed.png
+2022-12-20 00:54:27 >>> File: page_white_copy.png
+2022-12-20 00:54:27 >>> File: page_white_cplusplus.png
+2022-12-20 00:54:27 >>> File: page_white_csharp.png
+2022-12-20 00:54:27 >>> File: page_white_cup.png
+2022-12-20 00:54:27 >>> File: page_white_database.png
+2022-12-20 00:54:27 >>> File: page_white_delete.png
+2022-12-20 00:54:28 >>> File: page_white_dvd.png
+2022-12-20 00:54:28 >>> File: page_white_edit.png
+2022-12-20 00:54:28 >>> File: page_white_error.png
+2022-12-20 00:54:28 >>> File: page_white_excel.png
+2022-12-20 00:54:28 >>> File: page_white_find.png
+2022-12-20 00:54:28 >>> File: page_white_flash.png
+2022-12-20 00:54:28 >>> File: page_white_freehand.png
+2022-12-20 00:54:28 >>> File: page_white_gear.png
+2022-12-20 00:54:28 >>> File: page_white_get.png
+2022-12-20 00:54:28 >>> File: page_white_go.png
+2022-12-20 00:54:28 >>> File: page_white_h.png
+2022-12-20 00:54:28 >>> File: page_white_horizontal.png
+2022-12-20 00:54:28 >>> File: page_white_key.png
+2022-12-20 00:54:28 >>> File: page_white_lightning.png
+2022-12-20 00:54:28 >>> File: page_white_link.png
+2022-12-20 00:54:28 >>> File: page_white_magnify.png
+2022-12-20 00:54:28 >>> File: page_white_medal.png
+2022-12-20 00:54:28 >>> File: page_white_office.png
+2022-12-20 00:54:28 >>> File: page_white_paint.png
+2022-12-20 00:54:28 >>> File: page_white_paintbrush.png
+2022-12-20 00:54:28 >>> File: page_white_paste.png
+2022-12-20 00:54:28 >>> File: page_white_php.png
+2022-12-20 00:54:28 >>> File: page_white_picture.png
+2022-12-20 00:54:28 >>> File: page_white_powerpoint.png
+2022-12-20 00:54:28 >>> File: page_white_put.png
+2022-12-20 00:54:28 >>> File: page_white_ruby.png
+2022-12-20 00:54:28 >>> File: page_white_stack.png
+2022-12-20 00:54:28 >>> File: page_white_star.png
+2022-12-20 00:54:28 >>> File: page_white_swoosh.png
+2022-12-20 00:54:28 >>> File: page_white_text.png
+2022-12-20 00:54:28 >>> File: page_white_text_width.png
+2022-12-20 00:54:28 >>> File: page_white_tux.png
+2022-12-20 00:54:28 >>> File: page_white_vector.png
+2022-12-20 00:54:28 >>> File: page_white_visualstudio.png
+2022-12-20 00:54:28 >>> File: page_white_width.png
+2022-12-20 00:54:28 >>> File: page_white_word.png
+2022-12-20 00:54:28 >>> File: page_white_world.png
+2022-12-20 00:54:28 >>> File: page_white_wrench.png
+2022-12-20 00:54:28 >>> File: page_white_zip.png
+2022-12-20 00:54:28 >>> File: page_word.png
+2022-12-20 00:54:28 >>> File: page_world.png
+2022-12-20 00:54:28 
+2022-12-20 00:54:28 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:28 Http Worker is working...
+2022-12-20 00:54:28 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:28 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:28 
+2022-12-20 00:54:28 
+2022-12-20 00:54:28 Http Worker is working...
+2022-12-20 00:54:28 Http Worker is working...
+2022-12-20 00:54:28 
+2022-12-20 00:54:28 
+2022-12-20 00:54:28 Http Worker is working...
+2022-12-20 00:54:28 Http Worker is working...
+2022-12-20 00:54:28 GET /img/image.png HTTP/1.1
+2022-12-20 00:54:28 GET /img/page.png HTTP/1.1
+2022-12-20 00:54:28 
+2022-12-20 00:54:28 
+2022-12-20 00:54:28 Http Worker is working...
+2022-12-20 00:54:28 Http Worker is working...
+2022-12-20 00:54:28 GET /img/image.png HTTP/1.1
+2022-12-20 00:54:28 GET /img/page.png HTTP/1.1
+2022-12-20 00:54:37 
+2022-12-20 00:54:37 Http Worker is working...
+2022-12-20 00:54:37 GET / HTTP/1.1
+2022-12-20 00:54:37 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:54:37 >> Explore the content under folder: Project-socket
+2022-12-20 00:54:37 >>> Directory: .git
+2022-12-20 00:54:37 >>> Directory: .vscode
+2022-12-20 00:54:37 >>> Directory: bin
+2022-12-20 00:54:37 >>> Directory: img
+2022-12-20 00:54:37 >>> Directory: log
+2022-12-20 00:54:37 >>> Directory: src
+2022-12-20 00:54:37 >>> Directory: www
+2022-12-20 00:54:37 >>> File: README.md
+2022-12-20 00:54:37 
+2022-12-20 00:54:37 
+2022-12-20 00:54:37 Http Worker is working...
+2022-12-20 00:54:37 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:37 Http Worker is working...
+2022-12-20 00:54:37 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:37 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:37 >> No such resource:/style/style.css
+2022-12-20 00:54:37 
+2022-12-20 00:54:37 Http Worker is working...
+2022-12-20 00:54:37 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:37 Http Worker is working...
+2022-12-20 00:54:37 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:37 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:37 >> No such resource:/style/style.css
+2022-12-20 00:54:41 
+2022-12-20 00:54:41 Http Worker is working...
+2022-12-20 00:54:41 GET /www HTTP/1.1
+2022-12-20 00:54:41 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:54:41 >> Explore the content under folder: www
+2022-12-20 00:54:41 >>> File: page.html
+2022-12-20 00:54:41 
+2022-12-20 00:54:41 Http Worker is working...
+2022-12-20 00:54:41 Http Worker is working...
+2022-12-20 00:54:41 Http Worker is working...
+2022-12-20 00:54:41 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:41 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:41 >> No such resource:/style/style.css
+2022-12-20 00:54:41 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:41 GET /img/page_white_code.png HTTP/1.1
+2022-12-20 00:54:41 
+2022-12-20 00:54:41 Http Worker is working...
+2022-12-20 00:54:41 Http Worker is working...
+2022-12-20 00:54:41 Http Worker is working...
+2022-12-20 00:54:41 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:41 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:41 >> No such resource:/style/style.css
+2022-12-20 00:54:41 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:41 GET /img/page_white_code.png HTTP/1.1
+2022-12-20 00:54:41 
+2022-12-20 00:54:41 Http Worker is working...
+2022-12-20 00:54:41 Http Worker is working...
+2022-12-20 00:54:41 Http Worker is working...
+2022-12-20 00:54:41 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:41 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:41 >> No such resource:/style/style.css
+2022-12-20 00:54:41 GET /img/folder.png HTTP/1.1
+2022-12-20 00:54:41 GET /img/page_white_code.png HTTP/1.1
+2022-12-20 00:54:42 
+2022-12-20 00:54:42 Http Worker is working...
+2022-12-20 00:54:42 GET /favicon.ico HTTP/1.1
+2022-12-20 00:54:42 >> No such resource:/favicon.ico
+2022-12-20 00:54:45 
+2022-12-20 00:54:45 Http Worker is working...
+2022-12-20 00:54:45 GET /favicon.ico HTTP/1.1
+2022-12-20 00:54:45 >> No such resource:/favicon.ico
+2022-12-20 00:54:46 
+2022-12-20 00:54:46 Http Worker is working...
+2022-12-20 00:54:46 GET /favicon.ico HTTP/1.1
+2022-12-20 00:54:46 >> No such resource:/favicon.ico
+2022-12-20 00:54:47 
+2022-12-20 00:54:47 Http Worker is working...
+2022-12-20 00:54:47 GET /www/page.html HTTP/1.1
+2022-12-20 00:54:47 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:47 >> Seek the content of file: page.html
+2022-12-20 00:54:47 
+2022-12-20 00:54:47 Http Worker is working...
+2022-12-20 00:54:47 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:47 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:47 >> No such resource:/style/style.css
+2022-12-20 00:54:47 
+2022-12-20 00:54:47 Http Worker is working...
+2022-12-20 00:54:47 GET /favicon.ico HTTP/1.1
+2022-12-20 00:54:47 >> No such resource:/favicon.ico
+2022-12-20 00:54:47 
+2022-12-20 00:54:47 Http Worker is working...
+2022-12-20 00:54:47 GET /favicon.ico HTTP/1.1
+2022-12-20 00:54:47 >> No such resource:/favicon.ico
+2022-12-20 00:54:47 
+2022-12-20 00:54:47 Http Worker is working...
+2022-12-20 00:54:47 GET /favicon.ico HTTP/1.1
+2022-12-20 00:54:47 >> No such resource:/favicon.ico
+2022-12-20 00:54:47 
+2022-12-20 00:54:47 Http Worker is working...
+2022-12-20 00:54:47 GET /favicon.ico HTTP/1.1
+2022-12-20 00:54:47 >> No such resource:/favicon.ico
+2022-12-20 00:54:59 
+2022-12-20 00:54:59 Http Worker is working...
+2022-12-20 00:54:59 GET /page.cgi?person=Haga&num1=4&num2=-5 HTTP/1.1
+2022-12-20 00:54:59 > This is a [CGI] request..
+2022-12-20 00:54:59 >> 4 + -5 = -1
+2022-12-20 00:54:59 
+2022-12-20 00:54:59 Http Worker is working...
+2022-12-20 00:54:59 GET /style/style.css HTTP/1.1
+2022-12-20 00:54:59 > This is a [SINGLE FILE] request..
+2022-12-20 00:54:59 >> No such resource:/style/style.css
+2022-12-20 00:54:59 
+2022-12-20 00:54:59 Http Worker is working...
+2022-12-20 00:54:59 GET /favicon.ico HTTP/1.1
+2022-12-20 00:55:00 >> No such resource:/favicon.ico
+2022-12-20 00:55:17 
+2022-12-20 00:55:17 Http Worker is working...
+2022-12-20 00:55:17 GET /favicon.ico HTTP/1.1
+2022-12-20 00:55:17 >> No such resource:/favicon.ico
+2022-12-20 00:55:19 
+2022-12-20 00:55:19 Http Worker is working...
+2022-12-20 00:55:19 GET /favicon.ico HTTP/1.1
+2022-12-20 00:55:19 >> No such resource:/favicon.ico
+2022-12-20 00:55:20 
+2022-12-20 00:55:20 Http Worker is working...
+2022-12-20 00:55:20 GET / HTTP/1.1
+2022-12-20 00:55:20 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 00:55:20 >> Explore the content under folder: Project-socket
+2022-12-20 00:55:20 >>> Directory: .git
+2022-12-20 00:55:20 >>> Directory: .vscode
+2022-12-20 00:55:20 >>> Directory: bin
+2022-12-20 00:55:20 >>> Directory: img
+2022-12-20 00:55:21 >>> Directory: log
+2022-12-20 00:55:21 >>> Directory: src
+2022-12-20 00:55:21 >>> Directory: www
+2022-12-20 00:55:21 >>> File: README.md
+2022-12-20 00:55:21 
+2022-12-20 00:55:21 Http Worker is working...
+2022-12-20 00:55:21 
+2022-12-20 00:55:21 GET /img/folder.png HTTP/1.1
+2022-12-20 00:55:21 Http Worker is working...
+2022-12-20 00:55:21 GET /style/style.css HTTP/1.1
+2022-12-20 00:55:21 
+2022-12-20 00:55:21 Http Worker is working...
+2022-12-20 00:55:21 > This is a [SINGLE FILE] request..
+2022-12-20 00:55:21 >> No such resource:/style/style.css
+2022-12-20 00:55:21 
+2022-12-20 00:55:21 Http Worker is working...
+2022-12-20 00:55:21 > This is a [SINGLE FILE] request..
+2022-12-20 00:55:21 >> No such resource:/style/style.css
+2022-12-20 00:55:21 GET /img/page.png HTTP/1.1
+2022-12-20 00:55:21 
+2022-12-20 00:55:21 Http Worker is working...
+2022-12-20 00:55:21 GET /favicon.ico HTTP/1.1
+2022-12-20 00:55:21 >> No such resource:/favicon.ico
+2022-12-20 01:07:41 
+2022-12-20 01:07:41 Http Worker is working...
+2022-12-20 01:07:41 GET / HTTP/1.1
+2022-12-20 01:07:41 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 01:07:41 >> Explore the content under folder: Project-socket
+2022-12-20 01:07:41 >>> Directory: .git
+2022-12-20 01:07:41 >>> Directory: .vscode
+2022-12-20 01:07:41 >>> Directory: bin
+2022-12-20 01:07:41 >>> Directory: img
+2022-12-20 01:07:41 >>> Directory: log
+2022-12-20 01:07:41 >>> Directory: src
+2022-12-20 01:07:41 >>> Directory: www
+2022-12-20 01:07:41 >>> File: README.md
+2022-12-20 01:07:41 
+2022-12-20 01:07:41 
+2022-12-20 01:07:41 GET /style/style.css HTTP/1.1
+2022-12-20 01:07:41 Http Worker is working...
+2022-12-20 01:07:41 Http Worker is working...
+2022-12-20 01:07:41 > This is a [SINGLE FILE] request..
+2022-12-20 01:07:41 >> No such resource:/style/style.css
+2022-12-20 01:07:41 GET /img/page.png HTTP/1.1
+2022-12-20 01:07:41 GET /img/folder.png HTTP/1.1
+2022-12-20 01:07:41 
+2022-12-20 01:07:41 
+2022-12-20 01:07:41 GET /style/style.css HTTP/1.1
+2022-12-20 01:07:41 Http Worker is working...
+2022-12-20 01:07:41 Http Worker is working...
+2022-12-20 01:07:41 > This is a [SINGLE FILE] request..
+2022-12-20 01:07:41 >> No such resource:/style/style.css
+2022-12-20 01:07:41 GET /img/page.png HTTP/1.1
+2022-12-20 01:07:41 GET /img/folder.png HTTP/1.1
+2022-12-20 01:07:41 
+2022-12-20 01:07:41 
+2022-12-20 01:07:41 GET /style/style.css HTTP/1.1
+2022-12-20 01:07:41 Http Worker is working...
+2022-12-20 01:07:41 Http Worker is working...
+2022-12-20 01:07:41 > This is a [SINGLE FILE] request..
+2022-12-20 01:07:41 >> No such resource:/style/style.css
+2022-12-20 01:07:41 GET /img/page.png HTTP/1.1
+2022-12-20 01:07:41 GET /img/folder.png HTTP/1.1
+2022-12-20 01:07:41 
+2022-12-20 01:07:41 Http Worker is working...
+2022-12-20 01:07:41 GET /favicon.ico HTTP/1.1
+2022-12-20 01:07:41 >> No such resource:/favicon.ico
+2022-12-20 01:07:54 
+2022-12-20 01:07:54 Http Worker is working...
+2022-12-20 01:07:54 GET /www HTTP/1.1
+2022-12-20 01:07:54 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 01:07:54 >> Explore the content under folder: www
+2022-12-20 01:07:54 >>> File: page.html
+2022-12-20 01:07:54 
+2022-12-20 01:07:54 Http Worker is working...
+2022-12-20 01:07:54 Http Worker is working...
+2022-12-20 01:07:54 GET /img/folder.png HTTP/1.1
+2022-12-20 01:07:54 GET /style/style.css HTTP/1.1
+2022-12-20 01:07:54 GET /img/page_white_code.png HTTP/1.1
+2022-12-20 01:07:54 
+2022-12-20 01:07:54 Http Worker is working...
+2022-12-20 01:07:54 Http Worker is working...
+2022-12-20 01:07:54 GET /img/folder.png HTTP/1.1
+2022-12-20 01:07:54 GET /style/style.css HTTP/1.1
+2022-12-20 01:07:54 GET /img/page_white_code.png HTTP/1.1
+2022-12-20 01:07:54 > This is a [SINGLE FILE] request..
+2022-12-20 01:07:54 >> No such resource:/style/style.css
+2022-12-20 01:07:54 
+2022-12-20 01:07:54 Http Worker is working...
+2022-12-20 01:07:54 Http Worker is working...
+2022-12-20 01:07:54 GET /img/folder.png HTTP/1.1
+2022-12-20 01:07:54 GET /style/style.css HTTP/1.1
+2022-12-20 01:07:54 GET /img/page_white_code.png HTTP/1.1
+2022-12-20 01:07:54 > This is a [SINGLE FILE] request..
+2022-12-20 01:07:54 >> No such resource:/style/style.css
+2022-12-20 01:07:54 
+2022-12-20 01:07:54 Http Worker is working...
+2022-12-20 01:07:54 GET /favicon.ico HTTP/1.1
+2022-12-20 01:07:54 >> No such resource:/favicon.ico
+2022-12-20 01:07:57 
+2022-12-20 01:07:57 Http Worker is working...
+2022-12-20 01:07:57 GET / HTTP/1.1
+2022-12-20 01:07:57 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 01:07:57 >> Explore the content under folder: Project-socket
+2022-12-20 01:07:57 >>> Directory: .git
+2022-12-20 01:07:57 >>> Directory: .vscode
+2022-12-20 01:07:57 >>> Directory: bin
+2022-12-20 01:07:57 >>> Directory: img
+2022-12-20 01:07:57 >>> Directory: log
+2022-12-20 01:07:58 >>> Directory: src
+2022-12-20 01:07:58 >>> Directory: www
+2022-12-20 01:07:58 >>> File: README.md
+2022-12-20 01:07:58 Http Worker is working...
+2022-12-20 01:07:58 GET /img/folder.png HTTP/1.1
+2022-12-20 01:07:58 
+2022-12-20 01:07:58 Http Worker is working...
+2022-12-20 01:07:58 GET /img/page.png HTTP/1.1
+2022-12-20 01:07:58 Http Worker is working...
+2022-12-20 01:07:58 GET /style/style.css HTTP/1.1
+2022-12-20 01:07:58 > This is a [SINGLE FILE] request..
+2022-12-20 01:07:58 Http Worker is working...
+2022-12-20 01:07:58 GET /img/folder.png HTTP/1.1
+2022-12-20 01:07:58 
+2022-12-20 01:07:58 Http Worker is working...
+2022-12-20 01:07:58 GET /img/page.png HTTP/1.1
+2022-12-20 01:07:58 Http Worker is working...
+2022-12-20 01:07:58 GET /style/style.css HTTP/1.1
+2022-12-20 01:07:58 > This is a [SINGLE FILE] request..
+2022-12-20 01:07:58 >> No such resource:/style/style.css
+2022-12-20 01:07:58 Http Worker is working...
+2022-12-20 01:07:58 GET /img/folder.png HTTP/1.1
+2022-12-20 01:07:58 
+2022-12-20 01:07:58 Http Worker is working...
+2022-12-20 01:07:58 GET /img/page.png HTTP/1.1
+2022-12-20 01:07:58 Http Worker is working...
+2022-12-20 01:07:58 GET /style/style.css HTTP/1.1
+2022-12-20 01:07:58 > This is a [SINGLE FILE] request..
+2022-12-20 01:07:58 >> No such resource:/style/style.css
+2022-12-20 01:07:58 
+2022-12-20 01:07:58 Http Worker is working...
+2022-12-20 01:07:58 GET /favicon.ico HTTP/1.1
+2022-12-20 01:07:58 >> No such resource:/favicon.ico
+2022-12-20 01:08:02 
+2022-12-20 01:08:02 Http Worker is working...
+2022-12-20 01:08:02 GET /src HTTP/1.1
+2022-12-20 01:08:02 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 01:08:02 >> Explore the content under folder: src
+2022-12-20 01:08:02 >>> Directory: log
+2022-12-20 01:08:02 >>> Directory: server
+2022-12-20 01:08:02 >>> File: App.java
+2022-12-20 01:08:03 
+2022-12-20 01:08:03 Http Worker is working...
+2022-12-20 01:08:03 Http Worker is working...
+2022-12-20 01:08:03 GET /img/folder.png HTTP/1.1
+2022-12-20 01:08:03 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:03 
+2022-12-20 01:08:03 Http Worker is working...
+2022-12-20 01:08:03 Http Worker is working...
+2022-12-20 01:08:03 GET /img/folder.png HTTP/1.1
+2022-12-20 01:08:03 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:03 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:03 >> No such resource:/style/style.css
+2022-12-20 01:08:03 
+2022-12-20 01:08:03 Http Worker is working...
+2022-12-20 01:08:03 Http Worker is working...
+2022-12-20 01:08:03 GET /img/folder.png HTTP/1.1
+2022-12-20 01:08:03 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:03 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:03 >> No such resource:/style/style.css
+2022-12-20 01:08:03 
+2022-12-20 01:08:03 Http Worker is working...
+2022-12-20 01:08:03 GET /favicon.ico HTTP/1.1
+2022-12-20 01:08:03 >> No such resource:/favicon.ico
+2022-12-20 01:08:05 
+2022-12-20 01:08:05 Http Worker is working...
+2022-12-20 01:08:05 GET /src/App.java HTTP/1.1
+2022-12-20 01:08:05 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:05 >> Seek the content of file: App.java
+2022-12-20 01:08:05 
+2022-12-20 01:08:05 Http Worker is working...
+2022-12-20 01:08:05 GET /favicon.ico HTTP/1.1
+2022-12-20 01:08:05 >> No such resource:/favicon.ico
+2022-12-20 01:08:07 
+2022-12-20 01:08:07 Http Worker is working...
+2022-12-20 01:08:07 GET /favicon.ico HTTP/1.1
+2022-12-20 01:08:07 >> No such resource:/favicon.ico
+2022-12-20 01:08:09 
+2022-12-20 01:08:09 Http Worker is working...
+2022-12-20 01:08:09 GET / HTTP/1.1
+2022-12-20 01:08:09 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 01:08:09 >> Explore the content under folder: Project-socket
+2022-12-20 01:08:09 >>> Directory: .git
+2022-12-20 01:08:09 >>> Directory: .vscode
+2022-12-20 01:08:09 >>> Directory: bin
+2022-12-20 01:08:09 >>> Directory: img
+2022-12-20 01:08:09 >>> Directory: log
+2022-12-20 01:08:09 >>> Directory: src
+2022-12-20 01:08:09 >>> Directory: www
+2022-12-20 01:08:09 >>> File: README.md
+2022-12-20 01:08:09 
+2022-12-20 01:08:09 
+2022-12-20 01:08:09 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:09 Http Worker is working...
+2022-12-20 01:08:09 >> No such resource:/style/style.css
+2022-12-20 01:08:09 GET /img/page.png HTTP/1.1
+2022-12-20 01:08:09 
+2022-12-20 01:08:09 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:09 Http Worker is working...
+2022-12-20 01:08:09 >> No such resource:/style/style.css
+2022-12-20 01:08:09 GET /img/page.png HTTP/1.1
+2022-12-20 01:08:09 
+2022-12-20 01:08:09 Http Worker is working...
+2022-12-20 01:08:09 GET /favicon.ico HTTP/1.1
+2022-12-20 01:08:09 >> No such resource:/favicon.ico
+2022-12-20 01:08:11 
+2022-12-20 01:08:11 Http Worker is working...
+2022-12-20 01:08:11 GET /log HTTP/1.1
+2022-12-20 01:08:11 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 01:08:11 >> Explore the content under folder: log
+2022-12-20 01:08:11 >>> File: logs.txt
+2022-12-20 01:08:11 
+2022-12-20 01:08:11 Http Worker is working...
+2022-12-20 01:08:11 GET /img/page_white_text.png HTTP/1.1
+2022-12-20 01:08:11 Http Worker is working...
+2022-12-20 01:08:11 
+2022-12-20 01:08:11 GET /img/folder.png HTTP/1.1
+2022-12-20 01:08:11 Http Worker is working...
+2022-12-20 01:08:11 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:11 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:11 
+2022-12-20 01:08:11 GET /img/folder.png HTTP/1.1
+2022-12-20 01:08:11 Http Worker is working...
+2022-12-20 01:08:11 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:11 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:11 >> No such resource:/style/style.css
+2022-12-20 01:08:11 
+2022-12-20 01:08:11 Http Worker is working...
+2022-12-20 01:08:11 GET /favicon.ico HTTP/1.1
+2022-12-20 01:08:11 >> No such resource:/favicon.ico
+2022-12-20 01:08:12 
+2022-12-20 01:08:12 Http Worker is working...
+2022-12-20 01:08:12 GET /log/logs.txt HTTP/1.1
+2022-12-20 01:08:12 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:12 >> Seek the content of file: logs.txt
+2022-12-20 01:08:12 
+2022-12-20 01:08:12 Http Worker is working...
+2022-12-20 01:08:12 GET /favicon.ico HTTP/1.1
+2022-12-20 01:08:12 >> No such resource:/favicon.ico
+2022-12-20 01:08:17 
+2022-12-20 01:08:17 Http Worker is working...
+2022-12-20 01:08:17 GET /favicon.ico HTTP/1.1
+2022-12-20 01:08:17 >> No such resource:/favicon.ico
+2022-12-20 01:08:19 
+2022-12-20 01:08:19 Http Worker is working...
+2022-12-20 01:08:19 GET / HTTP/1.1
+2022-12-20 01:08:19 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 01:08:19 >> Explore the content under folder: Project-socket
+2022-12-20 01:08:19 >>> Directory: .git
+2022-12-20 01:08:19 >>> Directory: .vscode
+2022-12-20 01:08:19 >>> Directory: bin
+2022-12-20 01:08:19 >>> Directory: img
+2022-12-20 01:08:19 >>> Directory: log
+2022-12-20 01:08:19 >>> Directory: src
+2022-12-20 01:08:19 >>> Directory: www
+2022-12-20 01:08:19 >>> File: README.md
+2022-12-20 01:08:19 
+2022-12-20 01:08:19 Http Worker is working...
+2022-12-20 01:08:19 GET /img/page.png HTTP/1.1
+2022-12-20 01:08:19 Http Worker is working...
+2022-12-20 01:08:19 Http Worker is working...
+2022-12-20 01:08:19 
+2022-12-20 01:08:19 Http Worker is working...
+2022-12-20 01:08:19 GET /img/page.png HTTP/1.1
+2022-12-20 01:08:19 Http Worker is working...
+2022-12-20 01:08:19 Http Worker is working...
+2022-12-20 01:08:19 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:19 GET /img/folder.png HTTP/1.1
+2022-12-20 01:08:19 
+2022-12-20 01:08:19 Http Worker is working...
+2022-12-20 01:08:19 GET /img/page.png HTTP/1.1
+2022-12-20 01:08:19 Http Worker is working...
+2022-12-20 01:08:19 Http Worker is working...
+2022-12-20 01:08:19 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:19 GET /img/folder.png HTTP/1.1
+2022-12-20 01:08:19 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:19 >> No such resource:/style/style.css
+2022-12-20 01:08:19 
+2022-12-20 01:08:19 Http Worker is working...
+2022-12-20 01:08:19 GET /favicon.ico HTTP/1.1
+2022-12-20 01:08:19 >> No such resource:/favicon.ico
+2022-12-20 01:08:24 
+2022-12-20 01:08:24 Http Worker is working...
+2022-12-20 01:08:24 GET /bin HTTP/1.1
+2022-12-20 01:08:24 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 01:08:24 >> Explore the content under folder: bin
+2022-12-20 01:08:25 
+2022-12-20 01:08:25 Http Worker is working...
+2022-12-20 01:08:25 Http Worker is working...
+2022-12-20 01:08:25 GET /img/folder.png HTTP/1.1
+2022-12-20 01:08:25 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:25 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:25 >> No such resource:/style/style.css
+2022-12-20 01:08:25 
+2022-12-20 01:08:25 Http Worker is working...
+2022-12-20 01:08:25 Http Worker is working...
+2022-12-20 01:08:25 GET /img/folder.png HTTP/1.1
+2022-12-20 01:08:25 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:25 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:25 >> No such resource:/style/style.css
+2022-12-20 01:08:25 
+2022-12-20 01:08:25 Http Worker is working...
+2022-12-20 01:08:25 GET /favicon.ico HTTP/1.1
+2022-12-20 01:08:25 >> No such resource:/favicon.ico
+2022-12-20 01:08:26 
+2022-12-20 01:08:26 Http Worker is working...
+2022-12-20 01:08:26 GET / HTTP/1.1
+2022-12-20 01:08:26 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 01:08:26 >> Explore the content under folder: Project-socket
+2022-12-20 01:08:26 >>> Directory: .git
+2022-12-20 01:08:26 >>> Directory: .vscode
+2022-12-20 01:08:26 >>> Directory: bin
+2022-12-20 01:08:26 >>> Directory: img
+2022-12-20 01:08:26 >>> Directory: log
+2022-12-20 01:08:26 >>> Directory: src
+2022-12-20 01:08:26 >>> Directory: www
+2022-12-20 01:08:26 >>> File: README.md
+2022-12-20 01:08:26 
+2022-12-20 01:08:26 Http Worker is working...
+2022-12-20 01:08:26 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:26 Http Worker is working...
+2022-12-20 01:08:26 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:26 >> No such resource:/style/style.css
+2022-12-20 01:08:26 
+2022-12-20 01:08:26 Http Worker is working...
+2022-12-20 01:08:26 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:26 Http Worker is working...
+2022-12-20 01:08:26 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:26 >> No such resource:/style/style.css
+2022-12-20 01:08:39 
+2022-12-20 01:08:39 Http Worker is working...
+2022-12-20 01:08:39 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:39 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:39 >> No such resource:/style/style.css
+2022-12-20 01:08:43 
+2022-12-20 01:08:43 Http Worker is working...
+2022-12-20 01:08:44 GET /www HTTP/1.1
+2022-12-20 01:08:44 > This is a [DIRECTORY EXPLORE] request..
+2022-12-20 01:08:44 >> Explore the content under folder: www
+2022-12-20 01:08:44 >>> File: page.html
+2022-12-20 01:08:44 
+2022-12-20 01:08:44 
+2022-12-20 01:08:44 
+2022-12-20 01:08:44 Http Worker is working...
+2022-12-20 01:08:44 Http Worker is working...
+2022-12-20 01:08:44 GET /img/page_white_code.png HTTP/1.1
+2022-12-20 01:08:44 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:44 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:44 >> No such resource:/style/style.css
+2022-12-20 01:08:44 Http Worker is working...
+2022-12-20 01:08:44 
+2022-12-20 01:08:44 
+2022-12-20 01:08:44 
+2022-12-20 01:08:44 Http Worker is working...
+2022-12-20 01:08:44 Http Worker is working...
+2022-12-20 01:08:44 GET /img/page_white_code.png HTTP/1.1
+2022-12-20 01:08:44 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:44 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:44 >> No such resource:/style/style.css
+2022-12-20 01:08:44 Http Worker is working...
+2022-12-20 01:08:44 GET /img/folder.png HTTP/1.1
+2022-12-20 01:08:44 
+2022-12-20 01:08:44 
+2022-12-20 01:08:44 
+2022-12-20 01:08:44 Http Worker is working...
+2022-12-20 01:08:44 Http Worker is working...
+2022-12-20 01:08:44 GET /img/page_white_code.png HTTP/1.1
+2022-12-20 01:08:44 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:44 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:44 >> No such resource:/style/style.css
+2022-12-20 01:08:44 Http Worker is working...
+2022-12-20 01:08:44 GET /img/folder.png HTTP/1.1
+2022-12-20 01:08:49 
+2022-12-20 01:08:49 Http Worker is working...
+2022-12-20 01:08:49 GET /www/page.html HTTP/1.1
+2022-12-20 01:08:49 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:49 >> Seek the content of file: page.html
+2022-12-20 01:08:50 
+2022-12-20 01:08:50 Http Worker is working...
+2022-12-20 01:08:50 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:50 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:50 >> No such resource:/style/style.css
+2022-12-20 01:08:59 
+2022-12-20 01:08:59 Http Worker is working...
+2022-12-20 01:08:59 GET /page.cgi?person=Haga&num1=5&num2=-3 HTTP/1.1
+2022-12-20 01:08:59 > This is a [CGI] request..
+2022-12-20 01:08:59 >> 5 + -3 = 2
+2022-12-20 01:08:59 
+2022-12-20 01:08:59 Http Worker is working...
+2022-12-20 01:08:59 GET /style/style.css HTTP/1.1
+2022-12-20 01:08:59 > This is a [SINGLE FILE] request..
+2022-12-20 01:08:59 >> No such resource:/style/style.css
+2022-12-20 01:09:04 
+2022-12-20 01:09:04 Http Worker is working...
+2022-12-20 01:09:04 GET /favicon.ico HTTP/1.1
+2022-12-20 01:09:04 >> No such resource:/favicon.ico
+2022-12-20 01:09:10 
+2022-12-20 01:09:10 Http Worker is working...
+2022-12-20 01:09:10 GET /favicon.ico HTTP/1.1
+2022-12-20 01:09:10 >> No such resource:/favicon.ico
+2022-12-20 01:09:19 
+2022-12-20 01:09:19 Http Worker is working...
+2022-12-20 01:09:19 GET /favicon.ico HTTP/1.1
+2022-12-20 01:09:19 >> No such resource:/favicon.ico

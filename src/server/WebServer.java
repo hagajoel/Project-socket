@@ -12,8 +12,6 @@ public class WebServer {
     int length = 6;
     Socket socket;
 
-
-
     public WebServer(){
         
         try {

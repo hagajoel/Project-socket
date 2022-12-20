@@ -1,24 +1,12 @@
 package server;
 
-
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.PrintStream;
+import java.io.*;
 import java.io.UnsupportedEncodingException;
 import java.net.Socket;
 import java.net.URLDecoder;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
+import java.util.*;
 import log.LogUtil;
 
 public class HttpUtils extends Thread{
@@ -51,20 +39,20 @@ public class HttpUtils extends Thread{
             else {
                 String req = clientRequest.substring(4, clientRequest.length()-9).trim();
                 if (req.indexOf("..") > -1 || req.indexOf("/.ht") > -1 || req.endsWith("~")) {
-                    // hack attack
+                    
                     LogUtil.write("403(Forbidden): " + req);
                     String errorPage = buildErrorPage("403", "Forbidden", "You don't have permission to access the requested URL " + req);
                     printer.println(errorPage);
                 }
                 else {
                     req = URLDecoder.decode(req, "UTF-8");
-                    // Remove the last slash if exists
+                    
                     if (req.endsWith("/")) {
                         req = req.substring(0, req.length() - 1);
                     }
                     // Handle requests
-                    if (req.indexOf(".")>-1) { // Request for single file
-                        if (req.indexOf(".fake-cgi")>-1) { // CGI request
+                    if (req.indexOf(".")>-1) {
+                        if (req.indexOf(".cgi")>-1) { // CGI request
                             LogUtil.write("> This is a [CGI] request..");
                             handleCGIRequest(req, printer);
                         }
@@ -81,7 +69,7 @@ public class HttpUtils extends Thread{
                     }
                 }
             }
-            // Save logs to file
+
             LogUtil.save(true);
             socket.close();
         }
@@ -95,7 +83,7 @@ public class HttpUtils extends Thread{
         // Parse the url to key-value pair
         Map<String, String> params = parseUrlParams(req);
 
-        // Try to convert num1 and num2 to integer
+        
         Integer number1 = tryParse(params.get("num1"));
         Integer number2 = tryParse(params.get("num2"));
 
@@ -113,7 +101,7 @@ public class HttpUtils extends Thread{
             sbContent.append(params.get("num1") + " and " + params.get("num2") + " is ");
             sbContent.append(number1+number2);
             sbContent.append(".");
-            String htmlPage = buildHtmlPage(sbContent.toString(), "Fake-CGI: Add Two Numbers");
+            String htmlPage = buildHtmlPage(sbContent.toString(), "CGI request");
             String htmlHeader = buildHttpHeader("aa.html", htmlPage.length());
             printer.println(htmlHeader);
             printer.println(htmlPage);
@@ -123,23 +111,23 @@ public class HttpUtils extends Thread{
     private void handleFileRequest(String req, PrintStream printer) throws FileNotFoundException, IOException {
         // Get the root folder of the webserver
         String rootDir = getRootFolder();
-        // Get the real file path
+       
         String path = Paths.get(rootDir, req).toString();
-        // Try to open the file
+       
         File file = new File(path);
-        if (!file.exists() || !file.isFile()) { // If not exists or not a file
+        if (!file.exists() || !file.isFile()) {
             printer.println("No such resource:" + req);
             LogUtil.write(">> No such resource:" + req);
         }
-        else { // It's a file
+        else { 
             if (!req.startsWith("/img/")&&!req.startsWith("/favicon.ico")) {
                 LogUtil.write(">> Seek the content of file: " + file.getName());
             }
-            // Print header
+            
             String htmlHeader = buildHttpHeader(path, file.length());
             printer.println(htmlHeader);
 
-            // Open file to input stream
+            
             InputStream fs = new FileInputStream(file);
             byte[] buffer = new byte[1000];
             while (fs.available()>0) {
@@ -151,17 +139,17 @@ public class HttpUtils extends Thread{
 
 
     private void handleExploreRequest(String req, PrintStream printer) {
-        // Get the root folder of the webserver
+        
         String rootDir = getRootFolder();
-        // Get the real file path
+        
         String path = Paths.get(rootDir, req).toString();
-        // Try to open the directory
+        
         File file = new File (path) ;
         if (!file.exists()) { // If the directory does not exist
             printer.println("No such resource:" + req);
             LogUtil.write(">> No such resource:" + req);
         }
-        else { // If exists
+        else {
             LogUtil.write(">> Explore the content under folder: " + file.getName());
             // Get all the files and directory under current directory
             File[] files = file.listFiles();
@@ -242,7 +230,7 @@ public class HttpUtils extends Thread{
         sbHtml.append("<!DOCTYPE html>");
         sbHtml.append("<html>");
         sbHtml.append("<head>");
-        sbHtml.append("<link href='style/style.css'></link>");
+        sbHtml.append("<link rel=\"stylesheet\" href=\"style/style.css\" ></link>");
         sbHtml.append("<title>My Web Server</title>");
         sbHtml.append("</head>");
         sbHtml.append("<body>");
@@ -265,7 +253,6 @@ public class HttpUtils extends Thread{
         sbHtml.append("HTTP/1.1 " + code + " " + title + "\r\n\r\n");
         sbHtml.append("<!DOCTYPE html>");
         sbHtml.append("<html>");
-        sbHtml.append("<link href='style/style.css'></link>");
         sbHtml.append("<head>");
         sbHtml.append("<title>" + code + " " + title + "</title>");
         sbHtml.append("</head>");
@@ -419,3 +406,4 @@ public class HttpUtils extends Thread{
     }
 
 }
+ 
